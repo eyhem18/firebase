@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ADA Students feedback</title>
+
+</head>
+<body>
+
+
+	
+<div class="container">
+	<div class="row">
+	<p>Email us</p>
+	<div class="alert" id="alert">Your message has been sent</div>
+
+	<form  id="contactForm">
+		
+  Name:<br>
+  <input type="text" id="name" value="">
+  <br>
+  Slide Name:<br>
+  <input type="text" id="lastname" value="">
+  <br><br>
+  <br>
+  Email<br>
+  <input type="text" id="email" value="">
+  
+  <select id="categories">
+    <option value="All">All</option>
+    <option value="Web">Web</option>
+    <option value="gtame">Game</option>
+    <option value="IA">IA</option>
+     </select>
+   <p>Message</p>
+   <textarea id = 'message'></textarea>
+   <br>
+ <input id="button" type="submit" value="Submit">
+	</form>
+
+	</div>
+</div>	
+
+
+
+
+
+
+</body>
+
+
+ 	<script src="https://www.gstatic.com/firebasejs/5.4.1/firebase.js"></script>
+ 	<script type="text/javascript" src="js/looool.js"></script>
+</html>
+<style type="text/css">
+	.alert{
+  text-align: center; padding:10px; background:#79c879; 
+  color:#fff; margin-bottom:10px; display:none;
+}
+</style>
+
+
+<!--Lien firebase: https://eyhem-60fdf.firebaseio.com/ -->
